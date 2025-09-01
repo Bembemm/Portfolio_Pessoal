@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- o cabeçalho com o nome e menu -->
+    <header>
+      <h1>Breno Bembem</h1>
+      <!-- menu principal -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre mim</a></li>
+          <li><a href="formacao.html">Formação</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- onde fica todo o conteúdo -->
+      <section class="conteudo">
+        <h2>Contato</h2>
+        <p>se quiser falar comigo é só usar esse formulário aqui embaixo</p>
+        <!-- o formulário de contato com os três campos-->
+        <div class="caixa-do-formulario">
+          <form>
+            <!-- campo pro nome da pessoa -->
+            <div class="grupo-do-form">
+              <label for="nome">Seu Nome:</label>
+              <input type="text" id="nome" name="nome" />
+            </div>
+            <!-- campo pro email -->
+            <div class="grupo-do-form">
+              <label for="email">Seu E-mail:</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <!-- a caixa de texto onde escreve a mensagem -->
+            <div class="grupo-do-form">
+              <label for="mensagem">Sua Mensagem:</label>
+              <textarea id="mensagem" name="mensagem"></textarea>
+            </div>
+            <!-- o botão pra enviar -->
+            <div class="grupo-do-form">
+              <input type="button" value="Enviar Mensagem" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

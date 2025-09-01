@@ -1,0 +1,201 @@
+/* zerando as margens */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* geral da pagina */
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+/* cabecalho */
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* nome bem grande */
+header h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* menu centralizado */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* botoes do menu */
+nav li {
+  border: 3px solid white;
+}
+
+/* links do menu */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 20px;
+  display: block;
+  background-color: black;
+  font-size: 16px;
+}
+
+/* hover nos links */
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* mensagem principal */
+.destaque {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  margin: 120px auto;
+  width: 60%;
+}
+
+/* texto da apresentacao */
+.destaque p {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* caixa branca do conteudo */
+.conteudo {
+  width: 80%;
+  margin: 30px auto;
+  background-color: white;
+  color: black;
+  padding: 40px;
+  border: 4px solid white;
+}
+
+/* titulo das paginas */
+.conteudo h2 {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  padding-bottom: 15px;
+}
+
+/* subtitulos com barra lateral */
+.conteudo h3 {
+  color: black;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-left: 6px solid black;
+  padding-left: 15px;
+  float: left;
+  width: 100%;
+}
+
+/* titulos menores */
+.conteudo h4 {
+  color: black;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+/* paragrafos normais */
+.conteudo p {
+  color: black;
+  margin-bottom: 18px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* listas */
+.conteudo ul {
+  margin-bottom: 25px;
+  padding-left: 40px;
+}
+
+/* itens das listas */
+.conteudo li {
+  color: black;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* caixa do formulario */
+.caixa-do-formulario {
+  width: 70%;
+  margin: 30px auto;
+  background-color: white;
+  color: black;
+  padding: 40px;
+  border: 4px solid white;
+}
+
+/* espacamento dos campos */
+.grupo-do-form {
+  margin-bottom: 25px;
+}
+
+/* labels dos campos */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+
+/* campos de texto */
+input[type='text'],
+input[type='email'] {
+  width: 100%;
+  padding: 12px;
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
+
+/* area de texto */
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px;
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
+
+/* botao enviar */
+input[type='button'] {
+  background-color: black;
+  color: white;
+  padding: 15px 30px;
+  border: 3px solid black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* hover no botao */
+input[type='button']:hover {
+  background-color: white;
+  color: black;
+}
